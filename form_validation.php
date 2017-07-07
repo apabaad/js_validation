@@ -162,7 +162,9 @@
 			if(document.getElementById('selid').value=="empty"){
 				document.getElementById('divsub').innerHTML="Select a country!";
 				document.getElementById('divsub').style.display="block";
-				hasError=false;
+				hasError=true;
+			} else{
+				document.getElementById('divsub').innerHTML='';	
 			}
 
 			
